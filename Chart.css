@@ -1,0 +1,184 @@
+body{
+	background-color: #E5DED7;
+}
+
+@media screen{ 
+
+	.accaunt{
+		position: absolute;
+		width: 43%;
+		height: 9%;
+		left: 6%;
+		top: 5%;
+
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		line-height: 36px;
+
+		color: #817C7B;
+	}
+	.h{
+		position: absolute;
+		width: 69%;
+		height: 11%;
+		left: 15%;
+		top: 6%;
+
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		line-height: 60px;
+		text-align: center;
+
+		color: #817C7B;
+	}
+	.choose{
+		position: absolute;
+		width: 47%;
+		height: 5%;
+		left: 10%;
+		top: 23%;
+
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		line-height: 36px;
+		text-align: center;
+
+		color: #817C7B;
+
+		cursor: pointer;
+	}
+	select{
+		position: absolute;
+		width: 18%;
+		height: 3%;
+		left: 60%;
+		top: 24.4%;
+
+		background: #FEFEFE;
+	}
+	#chart_div{
+		position: absolute;
+		width: 81%;
+		height: 46%;
+		left: 9%;
+		top: 45%;
+
+		background: #FEFEFE;
+	}
+
+	#middle{	
+		position: absolute;
+		width:  70%;
+		left: 10%;
+		top: 33%;
+		text-align: right;
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		color: #817C7B;
+	}
+	.phrase{
+		display: none;
+	}
+}
+
+@media handheld{
+	.accaunt{
+		position: absolute;
+		width: 221px;
+		height: 60px;
+		left: 5px;
+		top: 50px;
+
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 18px;
+		text-align: center;
+
+		color: #817C7B;
+	}
+	.h{
+		position: absolute;
+		width: 232px;
+		height: 75px;
+		left: 91px;
+		top: 110px;
+
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		line-height: 42px;
+		text-align: center;
+
+		color: #817C7B;
+	}
+	.choose{
+		position: absolute;
+		width: 390px;
+		height: 33px;
+		left: 12px;
+		top: 185px;
+
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		line-height: 30px;
+		text-align: center;
+
+		color: #817C7B;
+
+	}
+	select{
+		position: absolute;
+		width: 390px;
+		height: 33px;
+		left: 12px;
+		top: 185px;
+
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		line-height: 30px;
+		text-align: center;
+
+		color: #817C7B;
+
+	}
+	#chart_div{
+		position: absolute;
+		width: 377px;
+		height: 287px;
+		left: 18px;
+		top: 385px;
+
+		background: #FEFEFE;
+	}
+	.phrase{
+		display: block;
+		position: absolute;
+		width: 318px;
+		height: 104px;
+		left: 48px;
+		top: 733px;
+
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		line-height: 27px;
+		text-align: center;
+
+		color: #817C7B;
+	}
+}
