@@ -1,2 +1,0 @@
-let weight=[[new Date(2020, 4, 1), 7], [new Date(2020, 8, 13), 0], [new Date(2020, 10, 1), 9], [new Date(2020, 11, 30), 4],
- [new Date(2021, 0, 15), 5], [new Date(2021, 0, 20), 6], [new Date(2021, 0, 29), 6], [new Date(2021, 1, 1), 4], [new Date(2021, 1, 2), 2] ]
