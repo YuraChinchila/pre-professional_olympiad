@@ -1,30 +1,26 @@
 body{
 	background-color: #E5DED7;
+	color: #817C7B;
+}
+@font-face {
+	font-family: Russo One; /* Гарнитура шрифта */
+	src: url(fonts/Russo-One.ttf); /* Путь к файлу со шрифтом */
 }
 
-@media screen{ 
+@media screen and (min-width: 426px)
+{ 
 
 	.accaunt{
-		position: absolute;
-		width: 43%;
-		height: 9%;
-		left: 6%;
-		top: 5%;
+		margin-left: 6%;
+		margin-top: 2%;
 
 		font-family: Russo One;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 30px;
-		line-height: 36px;
 
-		color: #817C7B;
 	}
 	.h{
-		position: absolute;
-		width: 69%;
-		height: 11%;
-		left: 15%;
-		top: 6%;
 
 		font-family: Russo One;
 		font-style: normal;
@@ -35,49 +31,53 @@ body{
 
 		color: #817C7B;
 	}
+	.check_period{
+		margin-left: 10%;
+		width: 80%;
+		margin-top: 3%;
+	}
+	.check{
+		margin-top: 1%;
+	}
 	.choose{
-		position: absolute;
-		width: 47%;
-		height: 5%;
-		left: 10%;
-		top: 23%;
-
+		cursor: pointer;
+		vertical-align: center;	
 		font-family: Russo One;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 30px;
+		font-size: 25px;
 		line-height: 36px;
 		text-align: center;
 
 		color: #817C7B;
 
-		cursor: pointer;
 	}
 	select{
-		position: absolute;
-		width: 18%;
-		height: 3%;
-		left: 60%;
-		top: 24.4%;
 
-		background: #FEFEFE;
+		border: 5px solid #FFFEFE;
+		box-sizing: border-box;
+		border-radius: 50px;
+		background-color: #E5DED7;
+		width: 30%;
+		height: 36px;
+		float: right;
+		margin-right: 10%;
+		vertical-align: center;
+		color: #817C7B;
+
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
 	}
 	#chart_div{
-		position: absolute;
-		width: 81%;
-		height: 46%;
-		left: 9%;
-		top: 45%;
-
-		background: #FEFEFE;
+		margin-top: 8%;
 	}
 
-	#middle{	
-		position: absolute;
-		width:  70%;
-		left: 10%;
-		top: 33%;
-		text-align: right;
+	#middle{
+		margin-top: 2%;
+		margin-left: 15%;
+		float: left;
 		font-family: Russo One;
 		font-style: normal;
 		font-weight: normal;
@@ -88,46 +88,32 @@ body{
 	}
 }
 
-@media handheld{
+@media screen and (max-width: 426px)
+{
 	.accaunt{
-		position: absolute;
-		width: 221px;
-		height: 60px;
-		left: 5px;
-		top: 50px;
+		margin-left: 1%;
+		margin-top: 8%;
 
-		font-family: Russo One;
-		font-style: normal;
-		font-weight: normal;
 		font-size: 15px;
-		line-height: 18px;
-		text-align: center;
-
+		font-family: Russo One;
 		color: #817C7B;
 	}
 	.h{
-		position: absolute;
-		width: 232px;
-		height: 75px;
-		left: 91px;
-		top: 110px;
-
+		margin-top: 2%;
 		font-family: Russo One;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 35px;
+		font-size: 33px;
 		line-height: 42px;
 		text-align: center;
 
 		color: #817C7B;
 	}
+	.check_period{
+		margin-left: 5%;
+		width: 90%;
+		margin-top: 8%;
+	}
 	.choose{
-		position: absolute;
-		width: 390px;
-		height: 33px;
-		left: 12px;
-		top: 185px;
-
+		display: block;
 		font-family: Russo One;
 		font-style: normal;
 		font-weight: normal;
@@ -139,34 +125,20 @@ body{
 
 	}
 	select{
-		position: absolute;
-		width: 390px;
-		height: 33px;
-		left: 12px;
-		top: 185px;
-
+		width: 60%;
+		margin-top: 4%;
 		font-family: Russo One;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		line-height: 30px;
 		text-align: center;
 
 		color: #817C7B;
 
 	}
 	#chart_div{
-		position: absolute;
-		width: 377px;
-		height: 287px;
-		left: 18px;
-		top: 385px;
-
+		margin-top: 10%;
 		background: #FEFEFE;
 	}
 	.phrase{
 		display: block;
-		position: absolute;
 		width: 318px;
 		height: 104px;
 		left: 48px;

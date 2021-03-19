@@ -14,6 +14,8 @@
 			$id = $elem[0]->id;
 			$_SESSION['id'] = $id;
 			header("Location: ../html/add_weight.html");
+		} else {
+			header("Location ../index.html");			
 		}
 	}
 ?>

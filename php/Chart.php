@@ -166,10 +166,11 @@
 		<link href="../assets/css/Chart.css" rel="stylesheet">
 	</head>
 	<body>
+		<div class="accaunt"><a style="color: #817C7B;" href="../html/add_weight.html"><<< Добавить вес </a></div>
 		<h1 class="h">Мой вес</h1>
 		<div class="check_period">
 			<div class="check">
-				<div class="choose" onclick="showStatistic()">Выбрать временной промежуток</div>
+				<div class="choose" onclick="showStatistic()">Выбрать временной промежуток
 				<select id="sel" onchange="hiddenOther()">
 					<option value="week" selected>Одна неделя</option>
 					<option value="two_weeks">Две недели</option>
@@ -177,7 +178,7 @@
 					<option value="half_year">Полгода</option>
 					<option value="year">Год</option>
 					<option value="other">Свой период</option>
-				</select>
+				</select></div>
 				<div id="middle" onload="today()">
 					<div id="other_date" hidden="true">
 					От: <input type="date" id="start" onchange="changeStart();">

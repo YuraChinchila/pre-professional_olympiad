@@ -1,7 +1,6 @@
 body{
 	background-color: #E5DED7;
 	color: #817C7B;
-	min-width: 525px;
 }
 @font-face {
 	font-family: Russo One; /* Гарнитура шрифта */
@@ -12,86 +11,166 @@ body{
 	src: url(fonts/Trochut.ttf); /* Путь к файлу со шрифтом */
 }
 
-@media screen{ 
-.header{
-	margin-top: 5%;
-}
-.header-text{
-	display: inline;
-	font-family: Trochut;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 144px;
-	line-height: 169px;
-	vertical-align: top;
+@media screen and (min-width: 426px)
+{ 
+	body{
 
-}
-.header-img{
-	display: inline;
-	width;
-	height: 273px;
-}
-.hello{
-	text-align: center;
-	font-family: Russo One;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 48px;
-	line-height: 58px;
-}
-.form-control{
-	border: 5px solid #FFFEFE;
-	box-sizing: border-box;
-	border-radius: 50px;
-	background-color: #E5DED7;
-	outline: none;
+	min-width: 525px;
+	}
+	.header{
+		margin-top: 1%;
+	}
+	.header-text{
+		display: inline;
+		font-family: Trochut;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 144px;
+		line-height: 169px;
+		vertical-align: top;
 
-	height: 8%;
-	margin-top: 1%;
-	padding-right: 40px;
+	}
+	.header-img{
+		display: inline;
+		width;
+		height: 273px;
+	}
+	.hello{
+		text-align: center;
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 48px;
+		line-height: 58px;
+	}
+	.form-control{
+		border: 5px solid #FFFEFE;
+		box-sizing: border-box;
+		border-radius: 50px;
+		background-color: #E5DED7;
 
-	font-family: Russo One;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 28px;
-	line-height: 34px;
-	text-align: center;
-}
-.btn{
-	border: 5px solid #FFFEFE;
-	box-sizing: border-box;
-	border-radius: 50px;
-	background-color: #E5DED7;
-	padding-right: 20px;
-	padding-left: 20px;
-	height: 8%;
-	margin-top: 1%;
+		height: 8%;
+		margin-top: 1%;
+		padding-right: 40px;
 
-	font-family: Russo One;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 28px;
-	line-height: 34px;
-	text-align: center;
-	color: #817C7B; 
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		line-height: 34px;
+		text-align: center;
+	}
+	.btn{
+		border: 5px solid #FFFEFE;
+		box-sizing: border-box;
+		border-radius: 50px;
+		background-color: #E5DED7;
+		padding-right: 20px;
+		padding-left: 20px;
+		height: 8%;
+		margin-top: 1%;
 
-}
-.registration{
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		line-height: 34px;
+		text-align: center;
+		color: #817C7B; 
 
-	font-family: Russo One;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 29px;
-	margin-top: 1%;
-}
-.login{
-	background: url(Login.png) no-repeat right;
+	}
+	.registration{
+
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 29px;
+		margin-top: 1%;
+	}
+	.login{
+		background: url(../img/Login.png) no-repeat right;
+			background-size: 40px;
+	}
+
+	.pass{
+		background: url(../img/Pass.png) no-repeat right;
 		background-size: 40px;
+	}
 }
 
-.pass{
-	background: url(Pass.png) no-repeat right;
-	background-size: 40px;
-}
+
+@media screen and (max-width: 426px)
+{ 
+	.header{
+		margin-top: 7%;
+	}
+	.header-text{
+		display: inline;
+		font-family: Trochut;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 80px;
+		vertical-align: top;
+
+	}
+	.header-img{
+		display: inline;
+		height: 150px;
+	}
+	.hello{
+		text-align: center;
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+	}
+	.form-control{
+		border: 5px solid #FFFEFE;
+		box-sizing: border-box;
+		border-radius: 50px;
+		background-color: #E5DED7;
+
+		height: 8%;
+		margin-top: 5%;
+		padding-right: 40px;
+
+		font-family: Russo One;
+		font-size: 20px;
+		text-align: center;
+	}
+	.btn{
+		border: 5px solid #FFFEFE;
+		box-sizing: border-box;
+		border-radius: 50px;
+		background-color: #E5DED7;
+		padding-right: 20px;
+		padding-left: 20px;
+		height: 8%;
+		margin-top: 5%;
+
+		font-family: Russo One;
+		font-size: 25px;
+		text-align: center;
+		color: #817C7B; 
+
+	}
+	.registration{
+
+		font-family: Russo One;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 29px;
+		margin-top: 10%;
+	}
+	.login{
+		background: url(../img/Login.png) no-repeat right;
+			background-size: 40px;
+	}
+
+	.pass{
+		background: url(../img/Pass.png) no-repeat right;
+		background-size: 40px;
+	}
 }
